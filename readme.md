@@ -60,6 +60,11 @@ $ npm run lint --fix
 $ npm run lint
 ```
 
+## Create build for production
+``` 
+$ npm run lint
+$ git fetch origin && git checkout . && git checkout master && git pull origin master && git checkout --detach && npm run build && git add dist/* --force && git commit -m v0.0.1 --no-verif && git tag -a v0.0.1 -m v0.0.1 && git push origin v0.0.1 
+```
 ## Run project with docker
 Unfinished!
 ```
