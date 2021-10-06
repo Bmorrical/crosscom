@@ -36,7 +36,6 @@ exports.getYesterdaysDate = async () => {
  */
 exports.getFridaysDateFromCalenderWeek = async () => {
     // todo
-
     return {
         success: true,
         errors: [],
@@ -50,7 +49,6 @@ exports.getFridaysDateFromCalenderWeek = async () => {
  */
 exports.getStartDayOfNextWeek = async () => {
     // todo
-
     return {
         success: true,
         errors: [],
@@ -64,7 +62,6 @@ exports.getStartDayOfNextWeek = async () => {
  */
 exports.getStartDayOfNextMonth = async () => {
     // todo
-
     return {
         success: true,
         errors: [],
@@ -78,7 +75,6 @@ exports.getStartDayOfNextMonth = async () => {
  */
 exports.getFirstDayByCalendarWeek = async () => {
     // todo
-
     return {
         success: true,
         errors: [],
@@ -92,7 +88,6 @@ exports.getFirstDayByCalendarWeek = async () => {
  */
 exports.getFutureDateTime = async () => {
     // todo
-
     return {
         success: true,
         errors: [],

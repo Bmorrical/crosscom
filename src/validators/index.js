@@ -1,4 +1,4 @@
-import Joi from "@hapi/joi"
+import Joi from '@hapi/joi';
 
 const dateInputValidator = Joi.object({
     input: Joi.number().required(),
@@ -6,4 +6,4 @@ const dateInputValidator = Joi.object({
 
 export {
     dateInputValidator,
-}
+};

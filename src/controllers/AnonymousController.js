@@ -5,7 +5,7 @@ import {
 import {
     AnonymousService,
 } from '../services';
-import {dateInputValidator} from "../validators"
+import {dateInputValidator} from '../validators';
 
 exports.heartBeat = async (req, res, next) => {
     try {
@@ -33,7 +33,7 @@ exports.getTomorrowsDate = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
 
 exports.getYesterdaysDate = async (req, res, next) => {
     try {
@@ -42,7 +42,7 @@ exports.getYesterdaysDate = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
 
 exports.getFridaysDateFromCalenderWeek = async (req, res, next) => {
     try {
@@ -58,7 +58,7 @@ exports.getFridaysDateFromCalenderWeek = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 exports.getStartDayOfNextWeek = async (req, res, next) => {
     try {
@@ -67,7 +67,7 @@ exports.getStartDayOfNextWeek = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
 
 exports.getStartDayOfNextMonth = async (req, res, next) => {
     try {
@@ -76,7 +76,7 @@ exports.getStartDayOfNextMonth = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
 
 exports.getFirstDayByCalendarWeek = async (req, res, next) => {
     try {
@@ -92,7 +92,7 @@ exports.getFirstDayByCalendarWeek = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 exports.getFutureDateTime = async (req, res, next) => {
     try {
@@ -108,4 +108,4 @@ exports.getFutureDateTime = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
