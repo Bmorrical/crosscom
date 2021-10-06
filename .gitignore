@@ -1,0 +1,14 @@
+/data/
+/dist/
+/node_modules/
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+npm-debug.log*
