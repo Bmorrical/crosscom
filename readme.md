@@ -1,4 +1,3 @@
-
 # CrossCom Assessment
 
 ## Configuration and Setup
@@ -6,25 +5,49 @@
 $ npm install
 $ cp .env.dist .env  (and update values)
 ```
-# If MySQL does not exist on localhost then proceed to Docker
 
-## Run schema creation and migrations
-
-First create a schema, in our case let's use `crosscom`, then:
-
-``` 
-$ npm run db:migrate
-```
-
-## Start application on localhost and run the test route for a json response
+## Start application on localhost and run the heart-beat test route for a json response
 ``` 
 $ npm run dev
 $ GET http://localhost:3000/api
 ```
 
 ## Application Routes
+Find the postman export in the root of the project `crosscom.postman_collection.json`
+
+- Return the time difference from the current time to tomorrow +24 hours
 ``` 
-$ GET http://localhost:3000/api
+$ GET http://localhost:3000/api/tomorrows-offset
+```
+
+- Return the time difference from the current time from yesterday -24 hours
+``` 
+$ GET http://localhost:3000/api/yesterdays-offset
+```
+
+- Return the time difference from Friday of any date's calendar week
+``` 
+$ GET http://localhost:3000/api/fridays-date-from-calender-week-offset
+```
+
+- Return the time difference from the start of next week
+``` 
+$ GET http://localhost:3000/api/start-day-of-next-week-offset
+```
+
+- Return the time difference from the start of next month
+``` 
+$ GET http://localhost:3000/api/start-day-of-next-month-offset
+```
+
+- Return the time difference from the first day of any date's calendar week
+``` 
+$ GET http://localhost:3000/api/start-day-by-calendar-week-offset
+```
+
+- Return the time difference from an arbitrary future date/time
+``` 
+$ GET http://localhost:3000/api/future-date-time-offset
 ```
 
 ## Lint code with fix with changes

@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "ee74cacc-1869-4045-84c1-4d66c2c7c39e",
+		"name": "crosscom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "heartbeat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tomorrows-offset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/tomorrows-offset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tomorrows-offset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "yesterdays-offset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/yesterdays-offset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"yesterdays-offset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fridays-date-from-calender-week-offset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/fridays-date-from-calender-week-offset?input",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fridays-date-from-calender-week-offset"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start-day-of-next-month-offset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/start-day-of-next-month-offset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"start-day-of-next-month-offset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start-day-of-next-month-offset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/start-day-of-next-month-offset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"start-day-of-next-month-offset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start-day-by-calendar-week-offset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/start-day-by-calendar-week-offset?input=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"start-day-by-calendar-week-offset"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "future-date-time-offset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/future-date-time-offset?input=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"future-date-time-offset"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

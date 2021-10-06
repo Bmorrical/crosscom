@@ -1,4 +1,3 @@
-import './db/models';
 import express from 'express';
 import http from 'http';
 import routes from './routes';
